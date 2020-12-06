@@ -499,10 +499,10 @@ def MeilleurOmegaJOR(A):
 
 
         
-def ComparaisonTempsMoyenExecution():                               
-    N=[]
-    TMGauss=[]
-    TMGrSc=[]
+def ComparaisonTempsMoyenExecution():            #des commentaires ont été mis pour mettre en évidence certaine courbe. Par exemple, On n'observe ici que la coube du temps                    
+    N=[]                                         #en fonction de la taille du système pour la méthode de Gauss-Seidel. Pour faire apparaitre les autre courbes, il faut 
+    #TMGauss=[]                                  #enlever les # devant les variables en "Gauss" pour la méthode directe de Gauss, "GrSc" pour la méthode de Gram-Schmidt,
+    #TMGrSc=[]                                   #et "SOR" pour la méthode de relaxation.
     TMGaSe=[]
     #TMSOR=[]
     for n in range (1,121):
